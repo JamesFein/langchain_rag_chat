@@ -1,0 +1,2 @@
+# langchain_rag_chat
+langchain制作的可以上传文档的rag聊天机器人

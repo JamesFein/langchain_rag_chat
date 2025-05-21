@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chat App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RAG Chat Application</h1>
+        
+        <div class="upload-section">
+            <h2>Upload Documents</h2>
+            <input type="file" id="fileInput" multiple accept=".pdf,.txt,.docx">
+            <button onclick="uploadFiles()">Upload</button>
+            <p id="uploadStatus"></p>
+        </div>
+
+        <div class="chat-section">
+            <h2>Chat</h2>
+            <div id="chatbox">
+                <!-- Chat messages will appear here -->
+            </div>
+            <input type="text" id="queryInput" placeholder="Ask a question...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

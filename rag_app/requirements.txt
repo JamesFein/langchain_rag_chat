@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-openai
+fastapi
+uvicorn[standard]
+python-multipart
+faiss-cpu
+tiktoken
+pypdf
+docx2txt
+unstructured
